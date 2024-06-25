@@ -1,0 +1,39 @@
+@font-face {
+    font-family: HelveticaNeueMedium;
+    src: url(fonts/HelveticaNeue-Medium-11.ttf);
+}
+@font-face {
+    font-family: HelveticaNeueLight;
+    src: url(fonts/HelveticaNeue-Light-08.ttf);
+}
+
+.nav-link {
+     font-family: HelveticaNeueMedium !important;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.covertext {
+    font-family: HelveticaNeueLight !important;
+    background-image: url(img/Cover.jpg);
+    background-size: cover;
+    padding-top: 15rem !important;
+    padding-bottom: 15rem !important;
+    background-position: center;
+}
+.font-light {
+    font-family: HelveticaNeueLight !important;
+}
+.font-medium {
+    font-family: HelveticaNeueMedium !important;
+}
+
+.top-nav
+{
+    font-size: small;
+}
+b.cover-bold {
+    font-family: HelveticaNeueMedium !important;
+}
