@@ -23,6 +23,21 @@
     padding-bottom: 15rem !important;
     background-position: center;
 }
+.coverservicestext {
+    font-family: HelveticaNeueLight !important;
+    background-image: url(/img/compressed/cover-services.jpg);
+    background-size: cover;
+    padding-top: 15rem !important;
+    padding-bottom: 15rem !important;
+    background-position: center;
+}
+.servicestext {
+    font-family: HelveticaNeueLight !important;
+    background-size: cover;
+
+    background-position: center;
+}
+
 .font-light {
     font-family: HelveticaNeueLight !important;
 }
@@ -36,4 +51,8 @@
 }
 b.cover-bold {
     font-family: HelveticaNeueMedium !important;
+}
+.text-outline {
+    paint-order: stroke fill;
+    -webkit-text-stroke: 0.10em #212529;
 }
